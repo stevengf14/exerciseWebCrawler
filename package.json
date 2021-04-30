@@ -1,0 +1,31 @@
+{
+  "name": "stackbuilders",
+  "version": "1.0.0",
+  "description": "Web Crawler to StackBuilders",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevengf14/exerciseWebCrawler.git"
+  },
+  "author": "Steven Guamán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevengf14/exerciseWebCrawler/issues"
+  },
+  "homepage": "https://github.com/stevengf14/exerciseWebCrawler#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.0.2",
+    "jsdom": "^16.5.3",
+    "objectmodel": "^4.2.3",
+    "properties-reader": "^2.2.0",
+    "puppeteer": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
